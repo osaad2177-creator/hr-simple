@@ -9,12 +9,12 @@ import { getStorage } from 'firebase/storage';
 import { getMessaging, isSupported } from 'firebase/messaging';
 
 const firebaseConfig = {
-  apiKey: import.meta.env.VITE_FIREBASE_API_KEY || "YOUR_API_KEY",
-  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN || "YOUR_AUTH_DOMAIN",
-  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID || "YOUR_PROJECT_ID",
-  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET || "YOUR_STORAGE_BUCKET",
-  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID || "YOUR_MESSAGING_SENDER_ID",
-  appId: import.meta.env.VITE_FIREBASE_APP_ID || "YOUR_APP_ID",
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY || "AIzaSyBOOkas_BRTSymRo1ASS7vERZn7CwTtJPI",
+  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN || "smart-hr-attendance-af284.firebaseapp.com",
+  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID || "smart-hr-attendance-af284",
+  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET || "smart-hr-attendance-af284.firebasestorage.app",
+  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID || "659674955874",
+  appId: import.meta.env.VITE_FIREBASE_APP_ID || "1:659674955874:web:f0bcf3c6c0651d1b46513b",
 };
 
 const app = initializeApp(firebaseConfig);
